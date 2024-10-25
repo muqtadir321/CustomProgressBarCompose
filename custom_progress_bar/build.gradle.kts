@@ -1,9 +1,11 @@
 plugins {
-    alias(libs.plugins.android.library)
-    alias(libs.plugins.jetbrains.kotlin.android)
+//    alias(libs.plugins.android.library)
+//    alias(libs.plugins.jetbrains.kotlin.android)
+    id("com.android.library")
 //    id("maven-publish")
-    `maven-publish`
-
+    kotlin("android")
+//    `maven-publish`
+    id("maven-publish")
 }
 
 android {
