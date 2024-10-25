@@ -43,6 +43,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 fun GreetingPreview() {
     AndroidLibraryComposeTheme {
         val list= listOf("ac","c","d","e","f","g")
-        com.example.custom_progress_bar.StepProgressBar(3, list)
+//        com.example.custom_progress_bar.StepProgressBar(3, list)
     }
 }
