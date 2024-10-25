@@ -46,4 +46,8 @@ fun MyCustomProgressBar() {
         color = Color.Blue, // Customize the color
     )
 }
+```
+![image](https://github.com/user-attachments/assets/6732cc1b-08e8-4449-9be0-10966422de3d)
+
+
 
